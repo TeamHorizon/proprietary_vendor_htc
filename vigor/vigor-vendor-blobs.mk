@@ -28,6 +28,11 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/etc/firmware/BCM4330B1_002.001.003.0550.0568.hcd:system/etc/firmware/BCM4330B1_002.001.003.0550.0568.hcd \
   vendor/htc/vigor/proprietary/bin/sysro:system/bin/sysro \
   vendor/htc/vigor/proprietary/bin/sysrw:system/bin/sysrw \
+  vendor/htc/vigor/proprietary/bin/abootimg:system/bin/abootimg \
+  vendor/htc/vigor/proprietary/bin/cmdline:system/bin/cmdline \
+  vendor/htc/vigor/proprietary/bin/menu:system/bin/menu \
+  vendor/htc/vigor/proprietary/bin/initd:system/bin/initd \
+  vendor/htc/vigor/proprietary/bin/unzip:system/bin/unzip \
   vendor/htc/vigor/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
   vendor/htc/vigor/proprietary/bin/charging:system/bin/charging \
   vendor/htc/vigor/proprietary/bin/htc_ebdlogd:system/bin/htc_ebdlogd \
