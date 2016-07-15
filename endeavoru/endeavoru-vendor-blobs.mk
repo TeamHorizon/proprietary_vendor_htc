@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/endeavoru/proprietary/lib/libnvomxadaptor.so:/system/lib/libnvomxadaptor.so \
         vendor/htc/endeavoru/proprietary/lib/libnvomxilclient.so:/system/lib/libnvomxilclient.so \
         vendor/htc/endeavoru/proprietary/lib/libnvomx.so:/system/lib/libnvomx.so \
-        vendor/htc/endeavoru/proprietary/lib/libnvos.so:/system/lib/libnvos.so \
         vendor/htc/endeavoru/proprietary/lib/libnvparser.so:/system/lib/libnvparser.so \
         vendor/htc/endeavoru/proprietary/lib/libnvrm_graphics.so:/system/lib/libnvrm_graphics.so \
         vendor/htc/endeavoru/proprietary/lib/libnvrm.so:/system/lib/libnvrm.so \
@@ -199,12 +198,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/endeavoru/proprietary/lib/libmlplatform.so:/system/lib/libmlplatform.so \
         vendor/htc/endeavoru/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
         vendor/htc/endeavoru/proprietary/lib/libsensors_mpl.so:/system/lib/libsensors_mpl.so \
-        vendor/htc/endeavoru/proprietary/lib/egl/libEGL_tegra_impl.so:/system/lib/egl/libEGL_tegra_impl.so \
-        vendor/htc/endeavoru/proprietary/lib/egl/libEGL_tegra.so:/system/lib/egl/libEGL_tegra.so \
-        vendor/htc/endeavoru/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:/system/lib/egl/libGLESv1_CM_tegra_impl.so \
-        vendor/htc/endeavoru/proprietary/lib/egl/libGLESv1_CM_tegra.so:/system/lib/egl/libGLESv1_CM_tegra.so \
-        vendor/htc/endeavoru/proprietary/lib/egl/libGLESv2_tegra_impl.so:/system/lib/egl/libGLESv2_tegra_impl.so \
-        vendor/htc/endeavoru/proprietary/lib/egl/libGLESv2_tegra.so:/system/lib/egl/libGLESv2_tegra.so \
         vendor/htc/endeavoru/proprietary/lib/hw/nfc.endeavoru.so:/system/lib/hw/nfc.endeavoru.so \
         vendor/htc/endeavoru/proprietary/vendor/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
         vendor/htc/endeavoru/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
@@ -236,4 +229,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/endeavoru/proprietary/media/GPU/mask_vignette_wide.bmp:/system/media/GPU/mask_vignette_wide.bmp \
         vendor/htc/endeavoru/proprietary/media/GPU/stylizeColorRamp.bmp:/system/media/GPU/stylizeColorRamp.bmp \
         vendor/htc/endeavoru/proprietary/media/GPU/stylizeContrastRamp.bmp:/system/media/GPU/stylizeContrastRamp.bmp \
-        vendor/htc/endeavoru/proprietary/media/GPU/twoToneMaskH.bmp:/system/media/GPU/twoToneMaskH.bmp
+        vendor/htc/endeavoru/proprietary/media/GPU/twoToneMaskH.bmp:/system/media/GPU/twoToneMaskH.bmp \
+        #EGL with libdgv1
+	PRODUCT_COPY_FILES += \
+	vendor/htc/endeavoru/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
+	vendor/htc/endeavoru/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so
